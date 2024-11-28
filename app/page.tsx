@@ -1,4 +1,3 @@
-import TravelCard from "@/components/TravelCard";
 import SearchView from "@/components/SearchView";
 import getBlogMetadata from "@/utils/getBlogMetadata";
 

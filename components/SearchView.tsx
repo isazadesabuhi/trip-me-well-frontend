@@ -8,19 +8,19 @@ export default function SearchView(props) {
 
   return (
     <>
-      <input
+      {/* <input
         placeholder="Search blogs..."
         value={searchValue}
         onChange={(e) => {
           setSearchValue(e.target.value);
         }}
-      />
-      <div className="grid grid-cols-2 gap-6">
+      /> */}
+      <div className="grid grid-cols-2 gap-20">
         {blogMetadata
-          .filter((val) => {
+          .filter((val: { title: string | string[]; }) => {
             return val.title.includes(searchValue);
           })
-          .map((blog, blogIndex) => {
+          .map((blog:any, blogIndex: React.Key) => {
             return <TravelCard key={blogIndex} blog={blog} />;
           })}
       </div>

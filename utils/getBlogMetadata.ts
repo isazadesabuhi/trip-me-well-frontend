@@ -12,7 +12,7 @@ export default function getBlogMetadata(basePath) {
     const matterResult = matter(fileContents);
     return {
       title: matterResult.data.title,
-      publication_date: matterResult.data.prep_time,
+      publication_date: matterResult.data.publication_date,
       description: matterResult.data.description,
       tags: matterResult.data.tags,
       slug: filename.replace(".md", ""),
