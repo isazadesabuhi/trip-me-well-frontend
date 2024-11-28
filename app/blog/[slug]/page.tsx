@@ -38,7 +38,7 @@ export default function RecipePage(props) {
       <div className="bg-black text-white">
         <div className="mx-auto">
           {/* Blog Image */}
-          <div className="relative w-full h-72 sm:h-96 rounded-lg overflow-hidden">
+          <div className="relative w-full aspect-[3/2] rounded-lg overflow-hidden">
             <Image
               src={blog.data.image}
               alt={blog.data.title}

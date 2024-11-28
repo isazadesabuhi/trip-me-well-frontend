@@ -16,7 +16,6 @@ interface TravelCardProps {
 
 function TravelCard(props: TravelCardProps) {
   const { blog } = props;
-  console.log(blog);
   return (
     <div className="flex flex-col gap-y-3 bg-black text-white rounded-lg shadow-lg overflow-hidden leading-[22px]">
       <Link
@@ -25,7 +24,7 @@ function TravelCard(props: TravelCardProps) {
       >
         <Image
           src={blog.image}
-          alt="A joyful person in Bhutan"
+          alt={blog.title}
           layout="fill"
           objectFit="cover"
         />

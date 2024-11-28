@@ -15,7 +15,7 @@ export default function SearchView(props) {
           setSearchValue(e.target.value);
         }}
       /> */}
-      <div className="grid grid-cols-2 gap-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-20">
         {blogMetadata
           .filter((val: { title: string | string[]; }) => {
             return val.title.includes(searchValue);

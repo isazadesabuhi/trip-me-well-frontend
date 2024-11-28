@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="flex flex-col mx-[20px] my-10 lg:mx-auto max-w-4xl bg-black text-slate-300 bg-black"
+      className="flex flex-col mx-[20px] my-10 lg:mx-auto lg:max-w-4xl bg-black text-slate-300 bg-black"
     >
       <body className={`flex flex-col gap-y-10 font-sans ${fontSans.variable}`}>
         <Header />
