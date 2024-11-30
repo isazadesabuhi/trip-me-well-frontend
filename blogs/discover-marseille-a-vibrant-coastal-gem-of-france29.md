@@ -40,7 +40,6 @@ image: "https://cdn.pixabay.com/photo/2022/07/29/22/44/marseille-7352728_960_720
 10. **Cité Radieuse (Le Corbusier)**  
     A UNESCO-listed modernist building designed by architect Le Corbusier, featuring apartments, a rooftop terrace, and an art gallery.
 
-
 ## What to Do in Marseille: Itinerary Guides
 
 ### 1 Day in Marseille
@@ -67,7 +66,6 @@ In addition to the above:
 - Dive into Marseille’s art and music scene, including local festivals.
 - Take boat tours to lesser-known Calanques or Frioul Islands.
 - Join a cooking class to learn how to make bouillabaisse.
-
 
 ## Tips for Visiting Marseille
 
