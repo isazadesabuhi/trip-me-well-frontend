@@ -7,7 +7,7 @@ function Header() {
       </Link>
       <div className="flex flex-row gap-x-4 text-white text-[14px] font-bold">
         <Link href="/">Blog</Link>
-        <Link href="/about">About</Link>
+        {/* <Link href="/about">About</Link> */}
       </div>
     </header>
   );

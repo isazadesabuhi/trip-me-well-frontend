@@ -18,6 +18,16 @@ const nextConfig = {
         hostname: "imagedelivery.net",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.pixabay.com",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "media.istockphoto.com",
+        pathname: "**",
+      },
     ],
   },
 };

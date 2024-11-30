@@ -20,9 +20,10 @@ export const generateStaticParams = async () => {
 };
 
 export async function generateMetadata({ params, searchParams }) {
-  const id = params?.slug ? " ⋅ " + params?.slug : "";
+  // const id = params?.slug ? " ⋅ " + params?.slug : "";
   return {
-    title: `The Bubbly Baker ${id.replaceAll("_", " ")}`,
+    title: `Trip Me Well ${getBlogContent(params.slug).data.title}`,
+    description: getBlogContent(params.slug).data.description,
   };
 }
 

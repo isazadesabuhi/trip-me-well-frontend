@@ -3,9 +3,8 @@ title: "Connecting with Locals: The True Essence of Travel"
 publication_date: "30 April 2024"
 description: "Moist and flavorful bread made with ripe bananas, perfect for breakfast or a snack.Moist and flavorful bread made with ripe bananas, perfect for breakfast or a snack.Moist and flavorful bread made with ripe bananas, perfect for breakfast or a snack."
 tags: ["baku", "azebaijan"]
-image: "https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/e0117e2b-bdfe-411d-809f-a06ebd9aff09.png/public"
+image: "https://cdn.pixabay.com/photo/2016/03/22/22/45/ferris-wheel-1273841_1280.jpg"
 ---
-
 
 As I wandered through the bustling night market in Kuala Lumpur, I was immediately enveloped by a kaleidoscope of sights, sounds, and smells. Vendors hawked sizzling satay skewers, woks crackling with fragrant char koay teow, and colorful stalls overflowing with fresh tropical fruits. The air was thick with the tantalizing aroma of spices and charcoal smoke.
 <br>

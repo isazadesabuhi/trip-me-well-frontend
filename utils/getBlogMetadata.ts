@@ -1,7 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
 
-export default function getBlogMetadata(basePath) {
+  export default function getBlogMetadata(basePath) {
   const folder = basePath + "/";
   const files = fs.readdirSync(folder);
   const markdownBlogs = files.filter((file) => file.endsWith(".md"));
