@@ -8,13 +8,13 @@ export default function SearchView(props) {
 
   return (
     <>
-      {/* <input
+      <input
         placeholder="Search blogs..."
         value={searchValue}
         onChange={(e) => {
           setSearchValue(e.target.value);
         }}
-      /> */}
+      />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-20">
         {blogMetadata
           .filter((val: { title: string | string[]; }) => {
