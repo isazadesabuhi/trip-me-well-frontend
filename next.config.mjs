@@ -20,12 +20,12 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "cdn.pixabay.com",
+        hostname: "127.0.0.1",
         pathname: "**",
       },
       {
         protocol: "https",
-        hostname: "media.istockphoto.com",
+        hostname: "trip-me-well-backend.onrender.com",
         pathname: "**",
       },
     ],
