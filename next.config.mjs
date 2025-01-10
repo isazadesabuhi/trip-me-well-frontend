@@ -28,6 +28,11 @@ const nextConfig = {
         hostname: "trip-me-well-backend.onrender.com",
         pathname: "**",
       },
+      {
+        protocol: "http",
+        hostname: "127.0.0.1",
+        pathname: "**",
+      },
     ],
   },
 };
